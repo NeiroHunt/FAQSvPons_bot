@@ -491,7 +491,7 @@ async def send_fox(message: types.Message):
     if fox_image:
         await message.answer_photo(photo=fox_image, caption="Вот тебе случайная лисичка!")
     else:
-        await message.answer("Не удалось получить изображение лисы.")
+        await message.answer("Лисичка в норке.")
 
 # Обработчик кнопки "Назад"
 @dp.message(lambda message: message.text == "Назад")
