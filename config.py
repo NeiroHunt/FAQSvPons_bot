@@ -1,1 +1,1 @@
-token = "8196514668:AAFVAV00Hmr6ujrACdwwiiHoN9khn91Xo0U"
+token = "1U"
